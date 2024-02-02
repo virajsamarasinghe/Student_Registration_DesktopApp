@@ -1,0 +1,49 @@
+.w3-pale-green {
+  max-width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 30px;
+  padding: 0 1em;
+  margin: 0 auto;
+  margin-top: 120px;
+  height: 400px;
+}
+
+.w3-pale-green h2 {
+  text-align: center;
+}
+
+.input-group6 {
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.input-group6 input {
+  width: 90%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: -20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 20px;
+}
+
+.w3-pale-green button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+.w3-pale-green button:hover {
+  background-color: #45a049;
+}

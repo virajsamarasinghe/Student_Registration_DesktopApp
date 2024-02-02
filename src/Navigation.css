@@ -1,0 +1,67 @@
+/* Navigation.css */
+
+.container5 {
+  position: relative;
+}
+
+.header {
+  width: 8%;
+  height: 45px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 30px;
+  color: #e4e7e8;
+  font-weight: 600;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -500px; /* Initially hide the sidebar off-screen */
+  width: 250px;
+  height: 100%;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(100px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding-top: 60px; /* Adjust according to your header height */
+  transition: left 0.3s ease;
+}
+
+.sidebar.open {
+  left: 0;
+}
+
+.sidebar button {
+    width: 80%;
+    height: 35px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 800;
+    margin-left: 25px;
+}
+
+.sidebar button:hover {
+  background-color: #555;
+}
+
+h3{
+  font-size: 22px;
+  margin-top: -40px;
+  margin-left: 70px;
+}
+
+

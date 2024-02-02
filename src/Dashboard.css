@@ -1,0 +1,48 @@
+.container8 {
+  width: 700px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 10px;
+  padding: 30px 40px;
+  margin-left: 300px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  height: 580px;
+
+}
+
+.container8 h2 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.container8 p {
+  font-size: 16px;
+  color: #fff;
+}
+
+.container8 table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.container8 table th,
+.container8 table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.container8 table th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.container8 table tr:nth-child(even) {
+  background-color: transparent;
+}

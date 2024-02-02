@@ -1,0 +1,53 @@
+.container3 {
+  max-width: 420px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 40px;
+  padding: 0 1em;
+  margin: 0 auto;
+  margin-top: 120px;
+  height: 400px;
+}
+.button1 button {
+  width: 50%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 800;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.button2 button {
+  width: 50%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 800;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* Home.css */
+
+.P {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+  margin: 20px 0;
+}

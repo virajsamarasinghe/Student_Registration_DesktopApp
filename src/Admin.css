@@ -1,0 +1,60 @@
+.container {
+  width: 694px;
+  height: 509px;
+  border-radius: 75px;
+  flex-shrink: 0;
+  background: transparent;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(50px);
+  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-radius: 20px;
+  padding: 0 1em;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.input-group3 {
+  margin-bottom: 15px;
+}
+
+.input-group3 input {
+  width: 90%;
+  padding: 10px;
+  margin-top: 55px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 30px;
+}
+
+.select-group select {
+  width: 90%;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 30px;
+}
+
+.button5{
+  margin-left: 290px;
+}
+
+.student-details {
+  background-color: transparent; /* Light gray background */
+  border-radius: 5px; /* Rounded corners */
+  padding: 20px; /* Space around the text */
+  margin-bottom: -30px; /* Space below the box */
+}
+
+.student-details p {
+  margin: 0 180px 10px; /* Space below each paragraph */
+  font-size: 16px; /* Text size */
+}
+

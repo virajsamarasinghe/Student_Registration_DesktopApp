@@ -1,0 +1,61 @@
+/* src/components/Login.css */
+
+.wrapper {
+    max-width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 0 1em;
+    margin: 0 auto;
+    margin-top: 120px;
+    height: 400px;
+}
+
+h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.input-group2 {
+  margin-bottom: 15px;
+  margin-top: 90px;
+}
+
+.input-group2 input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: -20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: 180px;
+  margin-right: 180px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.wrapper .icon{
+    position: absolute;
+    top: -10px;
+    right: 160px;
+    left: 160px;
+    transform: translateY(-50%) ;
+    font-size: 130px;
+    
+}
